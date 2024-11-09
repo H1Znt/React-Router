@@ -1,0 +1,18 @@
+.notFound {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.notFound__btn {
+  padding: 5px 10px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  cursor: pointer;
+  color: blue;
+  transition: 0.3s;
+}
+.notFound__btn:hover {
+  background: blue;
+  color: #fff;
+}
