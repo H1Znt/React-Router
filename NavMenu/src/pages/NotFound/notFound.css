@@ -2,17 +2,21 @@
   display: grid;
   place-content: center;
   text-align: center;
+  color: #d4d4d4;
 }
 
 .notFound__btn {
   padding: 5px 10px;
-  border: 1px solid blue;
+  border: 1px solid rgb(46, 209, 108);
   border-radius: 8px;
   cursor: pointer;
-  color: blue;
+  color: rgb(46, 209, 108);
   transition: 0.3s;
+  margin-bottom: 20px;
 }
 .notFound__btn:hover {
-  background: blue;
-  color: #fff;
+  background: rgb(117, 151, 62);
+  color: #bbfd65;
+  border: 1px solid rgb(117, 151, 62);
+
 }
